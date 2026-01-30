@@ -13,6 +13,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\..\2-Application\CopilotErrorAnalyzer.Application\CopilotErrorAnalyzer.Application.csproj" />
+    <ProjectReference Include="..\..\4-Infra\CopilotErrorAnalyzer.Infra\CopilotErrorAnalyzer.Infra.csproj" />
   </ItemGroup>
 
 </Project>

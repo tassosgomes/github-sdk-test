@@ -1,5 +1,5 @@
 ---
-status: pending
+status: completed
 parallelizable: true
 blocked_by: ["1.0"]
 ---
@@ -28,15 +28,15 @@ Implementar o armazenamento em memória usando `ConcurrentDictionary` para persi
 
 ## Subtarefas
 
-- [ ] 2.1 Criar classe `InMemoryErrorStore` em `4-Infra/Store/`
-- [ ] 2.2 Implementar `ConcurrentDictionary<string, ErrorEvent>` para storage
-- [ ] 2.3 Implementar `Channel<string>` para fila de processamento
-- [ ] 2.4 Implementar método `SaveAsync`
-- [ ] 2.5 Implementar método `GetByIdAsync`
-- [ ] 2.6 Implementar método `UpdateAsync`
-- [ ] 2.7 Implementar método `EnqueueForAnalysisAsync`
-- [ ] 2.8 Implementar método `DequeueForAnalysisAsync`
-- [ ] 2.9 Registrar como Singleton no DI container
+- [x] 2.1 Criar classe `InMemoryErrorStore` em `4-Infra/Store/`
+- [x] 2.2 Implementar `ConcurrentDictionary<string, ErrorEvent>` para storage
+- [x] 2.3 Implementar `Channel<string>` para fila de processamento
+- [x] 2.4 Implementar método `SaveAsync`
+- [x] 2.5 Implementar método `GetByIdAsync`
+- [x] 2.6 Implementar método `UpdateAsync`
+- [x] 2.7 Implementar método `EnqueueForAnalysisAsync`
+- [x] 2.8 Implementar método `DequeueForAnalysisAsync`
+- [x] 2.9 Registrar como Singleton no DI container
 
 ## Sequenciamento
 
